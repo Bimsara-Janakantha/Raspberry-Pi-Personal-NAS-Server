@@ -219,7 +219,7 @@ Running the monitor as a `systemd` service ensures it starts automatically on ev
 ### 1. Create the Service File
 
 ```bash
-sudo nano /etc/systemd/system/nasleds.service
+sudo nano /etc/systemd/system/nashealth.service
 ```
 
 Paste the following configuration:
@@ -232,7 +232,7 @@ After=multi-user.target
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/bin/python3 /usr/local/bin/heath/health_monitor.py
+ExecStart=/usr/bin/python3 /usr/local/bin/health/health_monitor.py
 Restart=always
 RestartSec=5
 
@@ -248,14 +248,14 @@ WantedBy=multi-user.target
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable nasleds.service
-sudo systemctl start nasleds.service
+sudo systemctl enable nashealth.service
+sudo systemctl start nashealth.service
 ```
 
 To confirm it is running:
 
 ```bash
-sudo systemctl status nasleds.service
+sudo systemctl status nashealth.service
 ```
 
 ---
@@ -266,7 +266,7 @@ Whenever you modify the service file, reload the daemon before restarting:
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl restart nasleds.service
+sudo systemctl restart nashealth.service
 ```
 
 ---
