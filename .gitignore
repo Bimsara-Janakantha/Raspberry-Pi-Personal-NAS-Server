@@ -1,7 +1,7 @@
 # All document files
-.doc
-.docx
+*.doc
+*.docx
 
 # All spreadsheet files
-.xls
-.xlsx
+*.xls
+*.xlsx
