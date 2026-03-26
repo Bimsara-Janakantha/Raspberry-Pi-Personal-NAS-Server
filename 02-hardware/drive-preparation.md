@@ -95,6 +95,8 @@ DiskPart successfully converted the selected disk to GPT format.
 
 In this example, Disk 0 is the laptop's internal drive — **do not touch it**. Disks 1–3 are the 4 TB SAS drives, and Disk 4 is the 1 TB SATA drive.
 
+<img src="../asserts/img4.jpg" alt="Diskpart Clean and Convert Commands" width="80%" height="auto">
+
 ---
 
 [← Component Verification](component-verification.md) | [Next: Mechanical Assembly →](mechanical-assembly.md)

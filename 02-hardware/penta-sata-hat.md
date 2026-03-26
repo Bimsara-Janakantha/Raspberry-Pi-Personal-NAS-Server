@@ -2,6 +2,8 @@
 
 The Geekworm Penta SATA Hat connects to the Raspberry Pi 5 via the PCIe FPC interface. This is the primary data bus that all four drives communicate through.
 
+<img src="../asserts/img8.webp" alt="Geekworm Penta SATA Hat" width="400">
+
 ---
 
 ## Steps
@@ -25,6 +27,8 @@ Repeat the same process on the Penta SATA Hat's PCIe FPC connector.
 
 Mount the Penta SATA Hat on standoffs **beside or above** the Pi — **not stacked directly on top**. The Hat connects via the PCIe ribbon cable, not the 40-pin GPIO header (which remains free for the LED and buzzer wiring).
 
+<img src="../asserts/img9.webp" alt="Penta SATA Hat with fan attached and PCIe cable connected" width="400">
+
 ### 5. Check the Cable
 
 Inspect the ribbon cable after routing. Make sure:
@@ -32,6 +36,8 @@ Inspect the ribbon cable after routing. Make sure:
 - There are **no sharp bends or kinks** in the cable
 - The **bend radius is gentle** — a tight fold can damage the cable conductors
 - The cable is not under tension at either end
+
+<img src="../asserts/img10.webp" alt="Close-up of PCIe FPC cable connection with proper orientation" width="400">
 
 ---
 

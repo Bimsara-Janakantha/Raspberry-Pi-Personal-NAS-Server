@@ -46,6 +46,8 @@ The ATX PSU will not start on its own without a motherboard. The paperclip test 
 6. Use a multimeter to measure voltage between a **yellow wire (+12V)** and a **black wire (GND)**. It should read approximately **12V DC**.
 7. **Power off and remove the jumper before continuing.**
 
+<img src="../asserts/img2.png" alt="ATX Paperclip Test Setup" width="80%" height="auto">
+
 > ⚠️ **Always remove the jumper before touching any other wiring.** The PSU is live when the jumper is in place.
 
 ---
@@ -74,6 +76,8 @@ Connect the drive to a SATA port on a PC and confirm it shows up:
 **What to check:** No bent pins, adapter seats firmly.
 
 Visually inspect each adapter for bent or damaged pins. Attach each adapter to a SAS drive and confirm it clicks into place without sitting at an angle.
+
+<img src="../../asserts/img3.jpg" alt="SAS-to-SATA Adapter" width="400px" height="auto">
 
 ---
 

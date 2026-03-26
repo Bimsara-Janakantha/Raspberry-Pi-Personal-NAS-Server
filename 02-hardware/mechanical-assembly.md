@@ -18,6 +18,8 @@ Slide each HDD into a drive bay and secure with M3 or UNC 6-32 screws (usually i
 
 Make sure the SATA connector end of each drive faces inward and is easily accessible for cable routing.
 
+<img src="../asserts/img5.jpg" alt="HDDs mounted in case" width="600">
+
 ### 3. Mount the ATX PSU
 
 Slide the ATX PSU into the rear PSU bracket and secure it with the four retaining screws. The PSU fan should face outward (toward the case's ventilation grille) or downward, depending on the case design.
@@ -31,6 +33,8 @@ Choose a location for the Pi that has:
 - Enough clearance for the PCIe ribbon cable to route cleanly to the Penta SATA Hat
 
 Mount the Pi using standoffs, a 3D-printed bracket, or adhesive standoff pads. Ensure it is not resting directly on the metal case (this could cause a short).
+
+<img src="../asserts/img6.jpeg" alt="Raspberry Pi mounted inside case" width="400">
 
 ### 5. Loose Cable Routing
 

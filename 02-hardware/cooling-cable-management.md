@@ -10,10 +10,10 @@ Proper airflow is critical for keeping drives, the Raspberry Pi, and the SATA Ha
 
 Two additional 80mm or 120mm PC fans were added to the case (beyond the PSU fan and the Penta SATA Hat fan):
 
-| Position | Role |
-|----------|------|
+| Position      | Role                                    |
+| ------------- | --------------------------------------- |
 | Front of case | Intake — pulls cool air past the drives |
-| Rear of case | Exhaust — pushes hot air out |
+| Rear of case  | Exhaust — pushes hot air out            |
 
 Both fans were connected to **12V (yellow)** and **GND (black)** from the ATX PSU using Molex-to-fan adapters or terminal blocks.
 
@@ -38,6 +38,8 @@ The goal is a clean front-to-back path. Hot air from the drives flows directly t
 ## Cable Management
 
 Good cable management matters for two reasons: it keeps airflow channels clear, and it makes future maintenance much easier.
+
+<img src="../asserts/img11.jpeg" alt="Final cable management with zip ties and proper routing" width="400">
 
 ### Steps
 

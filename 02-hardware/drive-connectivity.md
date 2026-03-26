@@ -24,6 +24,8 @@ Run a SATA power cable from the ATX PSU to each drive.
 
 The SAS drives with adapters accept standard SATA power connectors. If the PSU does not have enough SATA power connectors, use a SATA power splitter.
 
+<img src="../asserts/img7.jpeg" alt="SAS-to-SATA adapter connected with both data and power cables" width="400">
+
 ### 4. Check All Connections
 
 Give each data cable and power cable a firm tug to confirm it is locked in place. A loose connection is one of the most common causes of drives not being detected.
@@ -32,12 +34,12 @@ Give each data cable and power cable a firm tug to confirm it is locked in place
 
 ## Summary Table
 
-| Drive | Type | Data Cable To | Power Source |
-|-------|------|---------------|--------------|
+| Drive        | Type               | Data Cable To         | Power Source         |
+| ------------ | ------------------ | --------------------- | -------------------- |
 | SAS 1 (4 TB) | SAS → SATA adapter | Penta SATA Hat port 1 | ATX PSU (SATA power) |
 | SAS 2 (4 TB) | SAS → SATA adapter | Penta SATA Hat port 2 | ATX PSU (SATA power) |
 | SAS 3 (4 TB) | SAS → SATA adapter | Penta SATA Hat port 3 | ATX PSU (SATA power) |
-| SATA (1 TB) | Standard SATA | Penta SATA Hat port 4 | ATX PSU (SATA power) |
+| SATA (1 TB)  | Standard SATA      | Penta SATA Hat port 4 | ATX PSU (SATA power) |
 
 ---
 
