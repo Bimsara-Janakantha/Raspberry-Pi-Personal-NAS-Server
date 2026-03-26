@@ -8,6 +8,8 @@ The OS was installed headlessly — the Raspberry Pi was configured entirely bef
 
 On your main computer (Windows, Mac, or Linux), download and install the official [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
+<img src="../asserts/os_img3.png" alt="Raspberry Pi Imager" style="width: 400px; height: auto;" />
+
 ---
 
 ## Step 2 — Select the OS
@@ -15,7 +17,17 @@ On your main computer (Windows, Mac, or Linux), download and install the officia
 1. Insert your MicroSD card into your main computer.
 2. Open Raspberry Pi Imager.
 3. Click **Choose Device** → select **Raspberry Pi 5**.
+
+   <img src="../asserts/os_img4.png" alt="Raspberry Pi Imager" style="width: 400px; height: auto;" />
+
 4. Click **Choose OS** → navigate to **Other general-purpose OS → Ubuntu** → select **Ubuntu Server 24.04 LTS (64-bit)**.
+
+   <img src="../asserts/os_img5.png" alt="Raspberry Pi Imager" style="width: 400px; height: auto;" />
+
+   <img src="../asserts/os_img6.png" alt="Raspberry Pi Imager" style="width: 400px; height: auto;" />
+
+   <img src="../asserts/os_img7.png" alt="Raspberry Pi Imager" style="width: 400px; height: auto;" />
+
 5. Click **Choose Storage** → select your MicroSD card.
 
 ---
@@ -28,20 +40,20 @@ This is where you configure the Pi before it ever boots — saving you from need
 
 ### General Tab
 
-| Setting | Value |
-|---------|-------|
-| Hostname | `pinas` |
-| Username | `admin` (or your preferred name) |
-| Password | Choose a strong password — write it down |
-| Configure Wireless LAN | Enter your Wi-Fi SSID and password |
+| Setting                | Value                                    |
+| ---------------------- | ---------------------------------------- |
+| Hostname               | `pinas`                                  |
+| Username               | `admin` (or your preferred name)         |
+| Password               | Choose a strong password — write it down |
+| Configure Wireless LAN | Enter your Wi-Fi SSID and password       |
 
 > 💡 Even if you plan to use Ethernet (recommended for a NAS), configuring Wi-Fi here is a useful backup for the first boot.
 
 ### Services Tab
 
-| Setting | Value |
-|---------|-------|
-| Enable SSH | ✅ Checked |
+| Setting        | Value                       |
+| -------------- | --------------------------- |
+| Enable SSH     | ✅ Checked                  |
 | Authentication | Use password authentication |
 
 ---

@@ -12,6 +12,8 @@ Ubuntu Server is a well-supported, stable Linux distribution with a long-term su
 
 For a system that will run 24/7, an LTS release is always preferable over a rolling release — fewer surprise updates and breaking changes.
 
+<img src="../asserts/os_img1.png" alt="Ubuntu Server 24.04 LTS" style="width: 200px; height: auto;" />
+
 ### CasaOS
 
 CasaOS is not a separate operating system — it is a lightweight web dashboard that installs on top of Ubuntu (or Debian) with a single command. It provides:
@@ -22,6 +24,8 @@ CasaOS is not a separate operating system — it is a lightweight web dashboard 
 - An easy way to monitor containers and services
 
 CasaOS handles the visual layer, while Ubuntu handles everything underneath — RAID management, user accounts, disk quotas, and system services.
+
+<img src="../asserts/os_img2.jpg" alt="CasaOS" style="width: 200px; height: auto;" />
 
 ---
 
