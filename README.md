@@ -62,7 +62,7 @@ If you already have hardware assembled and Ubuntu running, jump straight to [Sec
 ## 📝 Notes
 
 - All usernames, domain names, and IP addresses in this guide are examples. Replace them with your own values.
-- This project was built and documented by **Alex Johnson** in July 2025.
+- This project was built and documented by **Bimsara Gawesh** in July 2025.
 - The system is currently live and serving two users with full internet access.# 🖥️ Raspberry Pi Personal Home NAS
 
 > **From Tiny Pi to Powerful Storage — A Complete DIY Build Guide**
