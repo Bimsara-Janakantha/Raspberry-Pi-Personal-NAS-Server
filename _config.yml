@@ -1,7 +1,1 @@
-title: "Raspberry Pi Home NAS"
-description: "From Tiny Pi to Powerful Storage — A complete DIY build guide for a self-hosted home NAS using Raspberry Pi 5, RAID 5, Nextcloud, and Cloudflare."
-author: "Bimsara Gawesh"
-url: ""
-baseurl: ""
-
 theme: jekyll-theme-cayman
