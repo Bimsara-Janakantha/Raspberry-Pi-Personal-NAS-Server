@@ -1,1 +1,55 @@
+title: "Raspberry Pi Home NAS"
+description: "From Tiny Pi to Powerful Storage — A complete DIY build guide for a self-hosted home NAS using Raspberry Pi 5, RAID 5, Nextcloud, and Cloudflare."
+author: "Bimsara Gawesh"
+url: ""
+baseurl: ""
+
 theme: jekyll-theme-cayman
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Navigation
+header_pages:
+  - README.md
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# GitHub Pages safe settings
+relative_links:
+  enabled: true
+  collections: true
+
+optional_front_matter:
+  remove_originals: true
+
+readme_index:
+  enabled: true
+  remove_originals: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+# Exclude from build
+exclude:
+  - "*.sh"
+  - "node_modules"
+  - "vendor"

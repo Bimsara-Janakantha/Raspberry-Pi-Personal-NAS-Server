@@ -5,3 +5,11 @@
 # All spreadsheet files
 *.xls
 *.xlsx
+
+# Ignore Jekyll and Sass cache files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
