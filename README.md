@@ -4,6 +4,8 @@
 
 This is a full documentation set for building a personal Network Attached Storage (NAS) server using a Raspberry Pi 5. The project covers everything from hardware assembly to cloud access via Nextcloud and Cloudflare.
 
+<button style="background-color: #2d9777; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" onclick="window.open('./docs/NAS_Project_Report.pdf', '_blank')">Download Full Project Report (PDF)</button>
+
 ---
 
 ## 📋 What This Build Does
