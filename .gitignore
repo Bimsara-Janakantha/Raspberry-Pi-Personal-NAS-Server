@@ -1,0 +1,7 @@
+# All document files
+.doc
+.docx
+
+# All spreadsheet files
+.xls
+.xlsx
