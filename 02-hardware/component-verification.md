@@ -77,7 +77,7 @@ Connect the drive to a SATA port on a PC and confirm it shows up:
 
 Visually inspect each adapter for bent or damaged pins. Attach each adapter to a SAS drive and confirm it clicks into place without sitting at an angle.
 
-<img src="../../asserts/img3.jpg" alt="SAS-to-SATA Adapter" width="400px" height="auto">
+<img src="../asserts/img3.jpg" alt="SAS-to-SATA Adapter" width="400px" height="auto">
 
 ---
 
