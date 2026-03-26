@@ -1,29 +1,15 @@
-site_name: My Project Documentation
-site_description: A comprehensive guide to my project.
-site_author: Your Name
+title: Raspberry Pi Personal NAS Server
+description: From Tiny Pi to Powerful Storage — A Complete DIY Build Guide
+theme: jekyll-theme-cayman
 
-# This points to where your markdown files live
-docs_dir: docs
+# Forces the dark color scheme
+color_scheme: dark
 
-theme:
-  name: material
-  # This forces the modern dark theme
-  palette:
-    scheme: slate
-    primary: deep purple
-    accent: cyan
-  
-  # Adds some nice modern UI features
-  features:
-    - navigation.tabs # Puts top-level sections in a top bar
-    - navigation.indexes # Allows folders to have their own overview pages
-    - search.suggest # Search bar autocomplete
+# Additional modern settings
+search_enabled: true
+search:
+  heading_level: 2 # Searches through your headers
 
-# Enables syntax highlighting and beautiful code blocks
-markdown_extensions:
-  - admonition
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+# Exclude your assets folder from being processed as text
+exclude:
+  - asserts/
