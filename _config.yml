@@ -13,3 +13,4 @@ search:
 # Exclude your assets folder from being processed as text
 exclude:
   - asserts/
+  - docs/
