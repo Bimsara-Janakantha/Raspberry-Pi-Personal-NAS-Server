@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+title: Raspberry Pi Personal NAS Server
+description: A personal DIY NAS (Network Attached Storage) Server using RaspberrPi 5B.
+theme: just-the-docs
+
+# Forces the dark color scheme
+color_scheme: dark
+
+# Additional modern settings
+search_enabled: true
+search:
+  heading_level: 2 # Searches through your headers
+
+# Exclude your assets folder from being processed as text
+exclude:
+  - asserts/
