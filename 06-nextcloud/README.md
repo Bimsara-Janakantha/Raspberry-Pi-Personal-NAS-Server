@@ -1,4 +1,4 @@
-# 06 — Nextcloud Setup
+# 06 Nextcloud Setup
 
 Nextcloud turns the NAS into a full self-hosted cloud platform — giving users a OneDrive-style experience with automatic file sync, a web interface, and mobile apps.
 

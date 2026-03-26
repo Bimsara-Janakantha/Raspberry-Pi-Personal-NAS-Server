@@ -1,4 +1,4 @@
-# 05 — User Management and Storage Quotas
+# 05 User Management and Storage Quotas
 
 This section covers setting up two user accounts, creating their private storage folders on the RAID array, enforcing hard storage limits, and exposing their vaults over the local network via Samba.
 

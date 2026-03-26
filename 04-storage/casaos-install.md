@@ -26,6 +26,8 @@ http://192.168.1.100
 
 Create your CasaOS admin account on first load.
 
+<img src="../asserts/casaos_img.jpeg" alt="CasaOS Dashboard" width="600">
+
 ---
 
 ## Mount the Drives in CasaOS
@@ -44,14 +46,14 @@ CasaOS will format and mount the drives and they will appear in the Files app.
 
 It is important to understand that CasaOS is a visual layer — Ubuntu still handles everything underneath.
 
-| Task | Handled By |
-|------|-----------|
-| RAID array management | Ubuntu (`mdadm`) |
-| User accounts and quotas | Ubuntu (Linux) |
-| File permissions | Ubuntu (Linux) |
-| Installing apps (Nextcloud, etc.) | CasaOS (Docker) |
-| File browsing | CasaOS (web UI) |
-| Container management | CasaOS (Docker) |
+| Task                              | Handled By       |
+| --------------------------------- | ---------------- |
+| RAID array management             | Ubuntu (`mdadm`) |
+| User accounts and quotas          | Ubuntu (Linux)   |
+| File permissions                  | Ubuntu (Linux)   |
+| Installing apps (Nextcloud, etc.) | CasaOS (Docker)  |
+| File browsing                     | CasaOS (web UI)  |
+| Container management              | CasaOS (Docker)  |
 
 ---
 

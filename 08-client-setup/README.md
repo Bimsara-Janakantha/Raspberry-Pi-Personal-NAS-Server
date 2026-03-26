@@ -1,4 +1,4 @@
-# 08 — Client Setup
+# 08 Client Setup
 
 With the server fully configured and accessible from the internet, the final step is setting up each access method for users.
 
