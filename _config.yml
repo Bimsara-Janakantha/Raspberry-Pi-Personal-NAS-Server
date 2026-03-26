@@ -1,15 +1,1 @@
-title: Raspberry Pi Personal NAS Server
-description: From Tiny Pi to Powerful Storage — A Complete DIY Build Guide
 theme: jekyll-theme-cayman
-
-# Forces the dark color scheme
-color_scheme: dark
-
-# Additional modern settings
-search_enabled: true
-search:
-  heading_level: 2 # Searches through your headers
-
-# Exclude your assets folder from being processed as text
-exclude:
-  - asserts/
