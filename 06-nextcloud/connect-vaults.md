@@ -27,13 +27,13 @@ By default, Nextcloud only reads files from inside its own database directory. T
 
 Fill in the form as follows:
 
-| Field | Value |
-|-------|-------|
-| Folder name | `/` |
-| External storage | Local |
-| Authentication | None |
-| Configuration | `/NAS_Storage/alice` |
-| Restricted to | `alice` |
+| Field            | Value                |
+| ---------------- | -------------------- |
+| Folder name      | `/`                  |
+| External storage | Local                |
+| Authentication   | None                 |
+| Configuration    | `/NAS_Storage/alice` |
+| Restricted to    | `alice`              |
 
 Click the **Save** (tick) button on the right.
 
@@ -47,13 +47,13 @@ Click the **Save** (tick) button on the right.
 
 Add a second entry:
 
-| Field | Value |
-|-------|-------|
-| Folder name | `/` |
-| External storage | Local |
-| Authentication | None |
-| Configuration | `/NAS_Storage/bob` |
-| Restricted to | `bob` |
+| Field            | Value              |
+| ---------------- | ------------------ |
+| Folder name      | `/`                |
+| External storage | Local              |
+| Authentication   | None               |
+| Configuration    | `/NAS_Storage/bob` |
+| Restricted to    | `bob`              |
 
 Click **Save**.
 
@@ -64,6 +64,8 @@ Click **Save**.
 A **green circle** next to each entry confirms Nextcloud can access the folder successfully.
 
 Log out of the admin account and log back in as Alice. Her personal vault should appear immediately as the root of her Nextcloud drive.
+
+<img src="../asserts/nextCloud_img3.webp" alt="Nextcloud file browser" width="400px"/>
 
 ---
 
