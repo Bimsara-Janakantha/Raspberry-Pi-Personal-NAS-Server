@@ -8,14 +8,18 @@ After the container starts, the first login and trusted domain configuration nee
 
 Open the Nextcloud container from the CasaOS dashboard. Because this build used the "Big Bear" Nextcloud image from the custom app store, it auto-generates admin credentials.
 
+<img src="../asserts/nextCloud_img4.png" alt="Nextcloud first login" width="400px"/>
+
 **Default credentials:**
 
-| Field | Value |
-|-------|-------|
+| Field    | Value    |
+| -------- | -------- |
 | Username | `casaos` |
 | Password | `casaos` |
 
 If these do not work, check the CasaOS container settings (three dots → Settings → Environment Variables) and look for `NEXTCLOUD_ADMIN_USER` and `NEXTCLOUD_ADMIN_PASSWORD`.
+
+<img src="../asserts/nextcloud_img2.png" alt="Nextcloud dashboard" width="400px"/>
 
 ---
 
@@ -33,6 +37,8 @@ Do this immediately before anything else.
 ## Step 3 — Fix the Trusted Domain Error
 
 On first access, Nextcloud may show an **"Access through untrusted domain"** error. This is Nextcloud's built-in security checking that you are connecting through a recognised address.
+
+<img src="../asserts/nextCloud_img5.png" alt="Nextcloud untrusted domain error" width="400px"/>
 
 Open the config file:
 

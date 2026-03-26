@@ -70,6 +70,4 @@ Click **Save** and then install. Let the container pull and start — this usual
 
 > Note: The Nextcloud container will see the NAS storage at `/NAS_Storage`, but it will be mounted to the actual RAID array at `/mnt/NAS_Storage` on the host. This is how the "split-brain" setup works — the app brain lives on the 1 TB drive, while the user data lives on the 8 TB RAID array.
 
-> NOTE: Change the `NEXTCLOUD_ADMIN_PASSWORD` and `NEXTCLOUD_ADMIN_USER` environment variables in the settings. If you prefer keep the default values.
-
 [← Permissions Bridge](permissions-bridge.md) | [Next: Initial Setup →](initial-setup.md)
