@@ -65,7 +65,7 @@ A **green circle** next to each entry confirms Nextcloud can access the folder s
 
 Log out of the admin account and log back in as Alice. Her personal vault should appear immediately as the root of her Nextcloud drive.
 
-<img src="../asserts/nextCloud_img3.webp" alt="Nextcloud file browser" width="400px"/>
+<img src="../asserts/nextCloud_img3.webp" alt="Nextcloud file browser" style="width: 80%; max-width: 600px;"/>
 
 ---
 
