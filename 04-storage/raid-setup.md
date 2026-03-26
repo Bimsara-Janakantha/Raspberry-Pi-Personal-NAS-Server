@@ -13,6 +13,8 @@ RAID 5 stripes data across all drives and stores parity information distributed 
 - **Read performance** is better than a single drive
 - **Write performance** is slightly lower due to parity calculations
 
+   <img src="../asserts/store_img2.png" alt="RAID 5 Diagram" width="400px"/>
+
 > ⚠️ RAID is not a backup. It protects against a single drive failure, but not against accidental deletion, ransomware, or simultaneous failure of two or more drives. Keep a separate backup for anything important.
 
 ---

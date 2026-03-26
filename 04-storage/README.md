@@ -4,7 +4,7 @@ This section covers building the RAID 5 array, installing CasaOS, mounting the d
 
 ---
 
-<img src="../asserts/img_storage1.png" alt="Storage Architecture Diagram" width="80%"/>
+<img src="../asserts/img_storage1.png" alt="Storage Architecture Diagram" width="400px"/>
 
 ## Sub-Sections
 
