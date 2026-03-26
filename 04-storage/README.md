@@ -1,4 +1,4 @@
-# 04 Storage Configuration
+# 04. Storage Configuration
 
 This section covers building the RAID 5 array, installing CasaOS, mounting the drives permanently, and verifying everything is healthy before opening the system to users.
 

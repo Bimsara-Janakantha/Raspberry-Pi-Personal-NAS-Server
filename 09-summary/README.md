@@ -1,4 +1,4 @@
-# 09 Project Summary
+# 09. Project Summary
 
 The build is complete. This section covers the final system architecture, what was achieved, and ongoing maintenance commands to keep the NAS running smoothly.
 

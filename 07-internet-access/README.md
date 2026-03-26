@@ -1,4 +1,4 @@
-# 07 Internet Access via Cloudflare Tunnel
+# 07. Internet Access via Cloudflare Tunnel
 
 This section covers making the NAS accessible securely from anywhere on the internet — without opening any ports on the home router or exposing the home IP address.
 

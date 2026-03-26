@@ -1,4 +1,4 @@
-# 03 Operating System Setup
+# 03. Operating System Setup
 
 With the hardware assembled and powered on, the next step is getting the right operating system onto the Raspberry Pi and configuring it for headless (no monitor) operation.
 

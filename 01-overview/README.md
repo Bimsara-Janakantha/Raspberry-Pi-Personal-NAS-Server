@@ -1,4 +1,4 @@
-# 01 Project Overview
+# 01. Project Overview
 
 > A personal NAS built on a Raspberry Pi 5 — self-hosted, private, and fully under your control.
 

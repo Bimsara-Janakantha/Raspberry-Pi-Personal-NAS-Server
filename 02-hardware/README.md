@@ -1,4 +1,4 @@
-# 02 Hardware Configuration
+# 02. Hardware Configuration
 
 This section covers everything physical — the components used, how they were tested, how the drives were prepared, and how everything was wired together inside the PC case.
 
