@@ -2,13 +2,15 @@
 
 Two options were seriously considered for providing a OneDrive-style sync experience: Nextcloud and Syncthing. Here is a direct comparison.
 
+<img src="../asserts/nextCloud_img1.webp" alt="Nextcloud vs Syncthing" width="400px"/>
+
 ---
 
 ## Performance
 
 ### Nextcloud
 
-Nextcloud is a full web application. It requires a web server (Nginx), a database (MariaDB), and a PHP scripting engine. Every file sync involves a database write to update its records.
+Nextcloud is a full web application. It requires a web server (Nginx), a database (PostgreSQL), and a PHP scripting engine. Every file sync involves a database write to update its records.
 
 On a Raspberry Pi 5, this is manageable but noticeable. Syncing a large batch of small files (thousands of photos, for example) will put real load on the Pi's RAM and the database.
 
@@ -42,15 +44,15 @@ On a Raspberry Pi 5, Syncthing is almost invisible in terms of CPU and RAM usage
 
 ## Features
 
-| Feature | Nextcloud | Syncthing |
-|---------|-----------|-----------|
-| Web browser access | ✅ Yes | ❌ No |
-| Mobile apps (iOS/Android) | ✅ Yes | ✅ Basic |
-| Photo auto-backup | ✅ Yes | ⚠️ Manual setup |
-| Public sharing links | ✅ Yes | ❌ No |
-| User accounts with separate storage | ✅ Yes | ⚠️ Manual setup |
-| Admin dashboard | ✅ Yes | ✅ Basic |
-| Lightweight on Pi | ❌ No | ✅ Yes |
+| Feature                             | Nextcloud | Syncthing       |
+| ----------------------------------- | --------- | --------------- |
+| Web browser access                  | ✅ Yes    | ❌ No           |
+| Mobile apps (iOS/Android)           | ✅ Yes    | ✅ Basic        |
+| Photo auto-backup                   | ✅ Yes    | ⚠️ Manual setup |
+| Public sharing links                | ✅ Yes    | ❌ No           |
+| User accounts with separate storage | ✅ Yes    | ⚠️ Manual setup |
+| Admin dashboard                     | ✅ Yes    | ✅ Basic        |
+| Lightweight on Pi                   | ❌ No     | ✅ Yes          |
 
 ---
 
