@@ -2,6 +2,8 @@
 
 > **From Tiny Pi to Powerful Storage — A Complete DIY Build Guide**
 
+![MIT License](https://img.shields.io/badge/License-MIT-green)
+
 <img src="./asserts/Thumbnail.png" style="width: 100%; max-width: 800px; border-radius: 10px; margin-bottom: 20px;" alt="Raspberry Pi NAS Thumbnail">
 
 This is a full documentation set for building a personal Network Attached Storage (NAS) server using a Raspberry Pi 5. The project covers everything from hardware assembly to cloud access via Nextcloud and Cloudflare.
@@ -72,3 +74,6 @@ If you already have hardware assembled and Ubuntu running, jump straight to [Sec
 This is a full documentation set for building a personal Network Attached Storage (NAS) server using a Raspberry Pi 5. The project covers everything from hardware assembly to cloud access via Nextcloud and Cloudflare.
 
 ---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
