@@ -1,8 +1,9 @@
 # 🖥️ Raspberry Pi Personal Home NAS
 
+![MIT License](https://img.shields.io/badge/License-MIT-green)
+
 > **From Tiny Pi to Powerful Storage — A Complete DIY Build Guide**
 
-![MIT License](https://img.shields.io/badge/License-MIT-green)
 
 <img src="./asserts/Thumbnail.png" style="width: 100%; max-width: 800px; border-radius: 10px; margin-bottom: 20px;" alt="Raspberry Pi NAS Thumbnail">
 
